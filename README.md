@@ -1,51 +1,55 @@
 # Who Wants to Be a Millionaire
 
-Welcome to the "Who Wants to Be a Millionaire" game! This project implements a text-based version of the popular TV show where players answer a series of multiple-choice questions to win increasing amounts of money.
+## Overview
+
+Welcome to Who Wants to Be a Millionaire, a console-based Python game inspired by the popular TV show. Test your general knowledge and challenge yourself as you strive to win the one-million-dollar prize. The game features multiple-choice questions with escalating difficulty and the opportunity to use lifelines strategically.
+
+## Getting Started
+
+### Prerequisites
+
+- Python installed on your machine
+
+### Installation
+
+1. Clone the repository to your local machine:
+
+   ```bash
+   git clone https://github.com/your-username/who-wants-to-be-a-millionaire.git
+   ```
+
+2. Navigate to the project directory in your terminal:
+
+   ```bash
+   cd who-wants-to-be-a-millionaire
+   ```
+
+3. Run the game:
+   ```bash
+   python main.py
+   ```
 
 ## How to Play
 
-1. **Run the Game:**
+1. **Answer Questions:**
+   - Questions will be presented with multiple-choice options.
+   - Choose the correct option to progress.
+2. **Accumulate Winnings:**
 
-   - Make sure you have Python installed on your machine.
-   - Open a terminal and navigate to the project directory.
-   - Run the game by executing the following command:
+   - Earn increasing amounts of money for each correct answer.
+   - Risk it all for a chance to win one million dollars.
 
-     ```bash
-     python main.py
-     ```
+3. **Cash Out or Continue:**
 
-2. **Game Rules:**
+   - After each question, decide whether to cash out with your current winnings or risk it for the next prize.
 
-   - You will be presented with a series of multiple-choice questions.
-   - Choose the correct answer from the options provided.
-   - Accumulate money with each correct answer.
-   - Decide whether to cash out with your current winnings or continue to the next question.
+4. **Win the Million:**
+   - Answer all questions correctly to become a millionaire!
 
-3. **Winning:**
-   - Answer all questions correctly to win the maximum prize of $1,000,000.
+## Contributions
 
-## Project Structure
+Contributions are welcome! If you'd like to enhance the game, fix bugs, or add new features, feel free to submit a pull request.
 
-- **menu.py:** Contains functions for handling menu options, such as playing again or confirming quitting.
+## Enjoy the Game!
 
-- **game.py:** Implements the core game logic, including loading questions, displaying options, and checking user answers.
-
-- **utils.py:** Includes utility functions like clearing the screen.
-
-- **questions.json:** JSON file containing the questions and their details.
-
-## Dependencies
-
-This project requires Python. No additional dependencies are needed.
-
-## Contributing
-
-Feel free to contribute by opening issues or submitting pull requests. Your feedback and contributions are highly appreciated!
-
-## License
-
-This project is licensed under the [MIT License](LICENSE).
-
----
-
-**Have fun and good luck becoming a virtual millionaire!**
+Who Wants to Be a Millionaire provides an exciting and challenging experience. Test your knowledge, use lifelines wisely, and aim for the top prize. Share the game with friends and see who can reach the million-dollar question first. Good luck on your journey to becoming a virtual millionaire! 💰🎉
