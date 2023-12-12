@@ -1,20 +1,31 @@
-def play_again() -> bool:
+from .utils import clear_screen
+
+
+def display_menu() -> int:
     """
-    Ask the user if they want to play again and return the response.
+    Display the menu and prompt the user for a choice.
 
     Returns:
-    - bool: True if the user wants to play again, False otherwise.
+    - int: The user's menu choice.
     """
 
-    return input("\nDo you want to play again? (yes/no): ").lower().startswith("y")
+    clear_screen()
 
+    welcome = "Welcome to Who Wants to Be a Millionaire!"
+    print(welcome)
+    print("-" * len(welcome))
 
-def confirm_quit() -> bool:
-    """
-    Ask the user for confirmation before quitting and return the response.
+    print("\nMenu:")
+    print("\t1. Start Game")
+    print("\t2. Leaderboard")
+    print("\t3. Quit")
 
-    Returns:
-    - bool: True if the user wants to quit, False otherwise.
-    """
-
-    return input("Are you sure you want to quit? (yes/no): ").lower().startswith("y")
+    while True:
+        try:
+            choice = int(input("\nEnter your choice (1, 2, or 3): "))
+            if 1 <= choice <= 3:
+                return choice
+            else:
+                print("Invalid choice. Please enter 1, 2, or 3.")
+        except ValueError:
+            print("Invalid input. Please enter a number.")

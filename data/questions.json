@@ -2,27 +2,27 @@
   "questions": [
     {
       "question": "In what children's game are participants chased by someone designated \"It\"?",
-      "content": ["Tag", "Simon Says", "Charades", "Hopscotch"],
+      "options": ["Tag", "Simon Says", "Charades", "Hopscotch"],
       "correct": 0
     },
     {
       "question": "On a radio, stations are changed by using what control?",
-      "content": ["Tuning", "Volume", "Bass", "Treble"],
+      "options": ["Tuning", "Volume", "Bass", "Treble"],
       "correct": 0
     },
     {
       "question": "Which material is most dense?",
-      "content": ["Silver", "Styrofoam", "Butter", "Gold"],
+      "options": ["Silver", "Styrofoam", "Butter", "Gold"],
       "correct": 3
     },
     {
       "question": "Which state in the United States is largest by area?",
-      "content": ["Alaska", "California", "Texas", "Hawaii"],
+      "options": ["Alaska", "California", "Texas", "Hawaii"],
       "correct": 0
     },
     {
       "question": "What is Aurora Borealis commonly known as?",
-      "content": [
+      "options": [
         "Fairy Dust",
         "Northern Lights",
         "Book of ages",
@@ -32,7 +32,7 @@
     },
     {
       "correct": 3,
-      "content": [
+      "options": [
         "developed the telescope",
         "discovered four satellites of Jupiter",
         "discovered that the movement of pendulum produces a regular time measurement",
@@ -42,7 +42,7 @@
     },
     {
       "correct": 3,
-      "content": [
+      "options": [
         "the infrared light kills bacteria in the body",
         "resistance power increases",
         "the pigment cells in the skin get stimulated and produce a healthy tan",
@@ -52,7 +52,7 @@
     },
     {
       "correct": 0,
-      "content": [
+      "options": [
         "a club or a local sport association for remarkable achievements",
         "amateur athlete, not necessarily an Olympian",
         "National Olympic Committee for outstanding work",
@@ -62,67 +62,67 @@
     },
     {
       "correct": 1,
-      "content": ["1968", "1929", "1901", "1965"],
+      "options": ["1968", "1929", "1901", "1965"],
       "question": "Oscar Awards were instituted in"
     },
     {
       "correct": 2,
-      "content": ["1998", "1989", "1979", "1800"],
+      "options": ["1998", "1989", "1979", "1800"],
       "question": "When did Margaret Thatcher became the first female Prime Minister of Britain?"
     },
     {
       "correct": 2,
-      "content": ["15th April", "12th December", "1st May", "1st August"],
+      "options": ["15th April", "12th December", "1st May", "1st August"],
       "question": "When is the International Workers' Day?"
     },
     {
       "correct": 2,
-      "content": ["1962", "1963", "1964", "1965"],
+      "options": ["1962", "1963", "1964", "1965"],
       "question": "When did China test their first atomic device?"
     },
     {
       "correct": 3,
-      "content": ["1904", "1905", "1908", "1909"],
+      "options": ["1904", "1905", "1908", "1909"],
       "question": "When did Commander Robert Peary discover the North Pole?"
     },
     {
       "correct": 0,
-      "content": ["819/sq. km", "602/sq. km", "415/sq. km", "500/sq. km"],
+      "options": ["819/sq. km", "602/sq. km", "415/sq. km", "500/sq. km"],
       "question": "What is the population density of Kerala?"
     },
     {
       "correct": 1,
-      "content": ["4 km", "25 km", "500 m to 9 km", "150 km"],
+      "options": ["4 km", "25 km", "500 m to 9 km", "150 km"],
       "question": "What is the range of missile 'Akash'?"
     },
     {
       "question": "In the U.S., if it's not Daylight Saving Time, it's what?",
-      "content": ["Borrowed time", "Overtime", "Standard time", "Party time"],
+      "options": ["Borrowed time", "Overtime", "Standard time", "Party time"],
       "correct": 2
     },
     {
       "question": "Which part of the body are you most likely to \"stub\"?",
-      "content": ["Toe", "Knee", "Elbow", "Brain"],
+      "options": ["Toe", "Knee", "Elbow", "Brain"],
       "correct": 0
     },
     {
       "question": "Which country is largest by area?",
-      "content": ["UK", "USA", "Russia", "China"],
+      "options": ["UK", "USA", "Russia", "China"],
       "correct": 2
     },
     {
       "question": "What does the \"F\" stand for in FBI?",
-      "content": ["Foreign", "Federal", "Flappy", "Face"],
+      "options": ["Foreign", "Federal", "Flappy", "Face"],
       "correct": 1
     },
     {
       "question": "The US declared war on which country after the bombing of Pearl Harbor?",
-      "content": ["Japan", "Russia", "Germany", "China"],
+      "options": ["Japan", "Russia", "Germany", "China"],
       "correct": 0
     },
     {
       "correct": 0,
-      "content": [
+      "options": [
         "Letter of Credit (L/C)",
         "laissezfaire",
         "inflation",
@@ -132,7 +132,7 @@
     },
     {
       "correct": 3,
-      "content": [
+      "options": [
         "Visible light",
         "Infrared radiation",
         "X-rays and gamma rays",
@@ -142,7 +142,7 @@
     },
     {
       "correct": 0,
-      "content": [
+      "options": [
         "the first Buddhist pilgrim of China to visit India during the reign of Chandragupta Vikramaditya",
         "the discoverer of Puerto Rico and Jamaica",
         "the first Buddhist pilgrim of India to visit China",
@@ -152,12 +152,12 @@
     },
     {
       "correct": 0,
-      "content": ["Harvard", "University of Washington", "Yale", "Oxford"],
+      "options": ["Harvard", "University of Washington", "Yale", "Oxford"],
       "question": "What was the first university in the United States"
     },
     {
       "correct": 0,
-      "content": [
+      "options": [
         "The amount of energy it takes to move an electron through a potential difference of 1 volt",
         "The number of volts it takes to move an electon a meter",
         "The number of electrons it takes to kill a human being",
@@ -167,17 +167,17 @@
     },
     {
       "correct": 0,
-      "content": ["14th November", "11th December", "15th October", "1st July"],
+      "options": ["14th November", "11th December", "15th October", "1st July"],
       "question": "When is the World's Diabetes Day?"
     },
     {
       "correct": 0,
-      "content": ["Kelvin", "Celsius", "Centigrade", "Fahrenheit"],
+      "options": ["Kelvin", "Celsius", "Centigrade", "Fahrenheit"],
       "question": "What is the S.I. unit of temperature?"
     },
     {
       "correct": 0,
-      "content": [
+      "options": [
         "July 21, 1969",
         "July 21, 1970",
         "July 21, 1963",
@@ -187,7 +187,7 @@
     },
     {
       "correct": 0,
-      "content": [
+      "options": [
         "the density of milk increases",
         "the density of milk decreases",
         "the density of milk remains unchanged",
@@ -197,22 +197,22 @@
     },
     {
       "correct": 0,
-      "content": ["1999", "1989", "1979", "1969"],
+      "options": ["1999", "1989", "1979", "1969"],
       "question": "When did 19 NATO members and 11 'Partners for Peace' join hands for peace plan for Kosovo Crisis?"
     },
     {
       "question": "An albino gorilla usually has what color fur?",
-      "content": ["Brown", "Black", "White", "Golden"],
+      "options": ["Brown", "Black", "White", "Golden"],
       "correct": 2
     },
     {
       "question": "When you enter a situation without a definite plan of action, you are said to be \"playing it by\" what?",
-      "content": ["Fingertips", "Ear", "Nose", "Mouth"],
+      "options": ["Fingertips", "Ear", "Nose", "Mouth"],
       "correct": 1
     },
     {
       "question": "What is commonly known as the \"Emerald City\" in the United States?",
-      "content": [
+      "options": [
         "Palos Verdes, CA",
         "Seattle, WA",
         "New York, NY",
@@ -222,12 +222,12 @@
     },
     {
       "question": "What is the national emblem of Canada?",
-      "content": ["Maple Leaf", "Brown Bear", "Maple Syrup", "Waffle"],
+      "options": ["Maple Leaf", "Brown Bear", "Maple Syrup", "Waffle"],
       "correct": 0
     },
     {
       "question": "What is the name of the largest freshwater lake in the world?",
-      "content": [
+      "options": [
         "Lake Union",
         "Lake Superior",
         "Lake Largest",
@@ -237,7 +237,7 @@
     },
     {
       "correct": 2,
-      "content": [
+      "options": [
         "Birds",
         "Cell formation",
         "Relation between organisms and their environment",
@@ -247,7 +247,7 @@
     },
     {
       "correct": 0,
-      "content": [
+      "options": [
         "Earth's gravitational pull",
         "Moon's gravitational pull",
         "Centripetal force due to the earth's rotation",
@@ -257,7 +257,7 @@
     },
     {
       "correct": 3,
-      "content": [
+      "options": [
         "was a great Italian painter, sculptor and architect",
         "got universal fame form his masterpiece \"Mona lisa\"",
         "drew models of organs such as the heart, lungs and womb",
@@ -267,17 +267,17 @@
     },
     {
       "correct": 2,
-      "content": ["2000", "2001", "2002", "2003"],
+      "options": ["2000", "2001", "2002", "2003"],
       "question": "Hamid Karzai was chosen president of Afghanistan in"
     },
     {
       "correct": 0,
-      "content": ["New York, USA", "Haque (Netherlands)", "Geneva", "Paris"],
+      "options": ["New York, USA", "Haque (Netherlands)", "Geneva", "Paris"],
       "question": "The headquarters of UN are situated at"
     },
     {
       "correct": 2,
-      "content": [
+      "options": [
         "friction between the earth and the bus",
         "friction between the passengers and the earth",
         "inertia of the passengers",
@@ -287,7 +287,7 @@
     },
     {
       "correct": 1,
-      "content": [
+      "options": [
         "1908 at London",
         "1980 at Moscow",
         "1936 at Berlin",
@@ -297,7 +297,7 @@
     },
     {
       "correct": 0,
-      "content": [
+      "options": [
         "increase the alkalinity of the soil",
         "increase the acidity of the soil",
         "restore nitrates to the soil",
@@ -307,7 +307,7 @@
     },
     {
       "correct": 1,
-      "content": [
+      "options": [
         "discovered Greenland",
         "travelled through China, India and other parts of Asia",
         "travelled round the cape of Good Hope",
@@ -317,17 +317,17 @@
     },
     {
       "correct": 1,
-      "content": ["Guruji", "Man of Peace", "Punjab Kesari", "Mahamana"],
+      "options": ["Guruji", "Man of Peace", "Punjab Kesari", "Mahamana"],
       "question": "Lal Bahadur Shastri is also known as"
     },
     {
       "question": "Which of the following consumer goods is the Gerber Products Co. best known for?",
-      "content": ["Potato chips", "Fine wines", "Chewing gum", "Baby Food"],
+      "options": ["Potato chips", "Fine wines", "Chewing gum", "Baby Food"],
       "correct": 3
     },
     {
       "question": "In which of these household appliances would you find a lint screen?",
-      "content": [
+      "options": [
         "Dishwasher",
         "Microwave oven",
         "Clothes dryer",
@@ -337,9 +337,9 @@
     },
     {
       "question": "What are the three primary colors?",
-      "content": [
+      "options": [
         "Red, green, blue",
-        "Magenta, pink, cyan",
+        "Reg, green, yellow",
         "Yellow, salmon, brown",
         "White, grey, black"
       ],
@@ -347,7 +347,7 @@
     },
     {
       "question": "In aviation, what does UFO stand for?",
-      "content": [
+      "options": [
         "Unified Flying Object",
         "Unitary Flinging Obsession",
         "United Flag Opposition",
@@ -357,7 +357,7 @@
     },
     {
       "question": "In aviation, what does UFO stand for?",
-      "content": [
+      "options": [
         "Unified Flying Object",
         "Unitary Flinging Obsession",
         "United Flag Opposition",
@@ -367,7 +367,7 @@
     },
     {
       "correct": 0,
-      "content": [
+      "options": [
         "low melting point",
         "high resistance",
         "high melting point",
@@ -377,7 +377,7 @@
     },
     {
       "correct": 3,
-      "content": [
+      "options": [
         "slowing down of economic activity over a limited period",
         "period during which unemployment may rise and demand and output may fall, leading to slump in trade",
         "period that results from accumulation of unsold goods, owing to fall in demand",
@@ -387,17 +387,17 @@
     },
     {
       "correct": 3,
-      "content": ["Nagaland", "Arunachal Pradesh", "Assam", "All of the above"],
+      "options": ["Nagaland", "Arunachal Pradesh", "Assam", "All of the above"],
       "question": "Guwahati High Court is the judicature of"
     },
     {
       "correct": 0,
-      "content": ["Orissa", "Tamil nadu", "Andhra Pradesh", "Kerala"],
+      "options": ["Orissa", "Tamil nadu", "Andhra Pradesh", "Kerala"],
       "question": "Heavy Water Project (Talcher) and Fertilizer plant (Paradeep) are famous industries of"
     },
     {
       "correct": 0,
-      "content": [
+      "options": [
         "the amount of moisture it can hold decreases",
         "its absolute humidity decreases",
         "its relative humidity remains constant",
@@ -407,12 +407,12 @@
     },
     {
       "correct": 2,
-      "content": ["1789 AD", "1798 AD", "1792 AD", "1729 AD"],
+      "options": ["1789 AD", "1798 AD", "1792 AD", "1729 AD"],
       "question": "When did France became Republic?"
     },
     {
       "correct": 2,
-      "content": [
+      "options": [
         "Group A only",
         "Group B only",
         "Group A and O",
@@ -422,12 +422,12 @@
     },
     {
       "correct": 0,
-      "content": ["coins", "numbers", "stamps", "space"],
+      "options": ["coins", "numbers", "stamps", "space"],
       "question": "Numismatics is the study of"
     },
     {
       "correct": 2,
-      "content": [
+      "options": [
         "a classed unique society",
         "a united society",
         "a classed society",
@@ -437,7 +437,7 @@
     },
     {
       "correct": 0,
-      "content": [
+      "options": [
         "Maharashtra",
         "Rajasthan",
         "Madhya Pradesh",
@@ -447,32 +447,32 @@
     },
     {
       "question": "What kind of animal traditionally lives in a sty?",
-      "content": ["Cow", "Pig", "Fox", "Teenager"],
+      "options": ["Cow", "Pig", "Fox", "Teenager"],
       "correct": 1
     },
     {
       "question": "The EPA urges people to produce less waste by engaging in efforts to reduce, reuse and what?",
-      "content": ["Recycle", "Rewrap", "Repossess", "Retire"],
+      "options": ["Recycle", "Rewrap", "Repossess", "Retire"],
       "correct": 0
     },
     {
       "question": "What is the second most common gas in the air?",
-      "content": ["Nitrogen", "Oxygen", "Water", "Helium"],
+      "options": ["Nitrogen", "Oxygen", "Water", "Helium"],
       "correct": 1
     },
     {
       "question": "Which month has only 28 days (unless it's a leap year)?",
-      "content": ["March", "September", "June", "Feburary"],
+      "options": ["March", "September", "June", "Feburary"],
       "correct": 3
     },
     {
       "correct": 1,
-      "content": ["give", "prove", "both", "None of the above"],
+      "options": ["give", "prove", "both", "None of the above"],
       "question": "Pythagoras was first to ____ the universal validity of geometrical theorem."
     },
     {
       "correct": 0,
-      "content": [
+      "options": [
         "George Washington",
         "Bill Clinton",
         "George Bush",
@@ -482,7 +482,7 @@
     },
     {
       "correct": 0,
-      "content": [
+      "options": [
         "1986 at Athens",
         "1988 at Seoul",
         "1924 at St. Louis",
@@ -492,7 +492,7 @@
     },
     {
       "correct": 1,
-      "content": [
+      "options": [
         "Junagarh, Gujarat",
         "Diphu, Assam",
         "Kohima, Nagaland",
@@ -502,7 +502,7 @@
     },
     {
       "correct": 3,
-      "content": [
+      "options": [
         "states that no one was to be imprisoned without a writ or warrant stating the charge against him",
         "provided facilities to a prisoner to obtain either speedy trial or release in bail",
         "safeguarded the personal liberties of the people against arbitrary imprisonment by the king's orders",
@@ -512,12 +512,12 @@
     },
     {
       "correct": 1,
-      "content": ["1960", "1961", "1962", "1963"],
+      "options": ["1960", "1961", "1962", "1963"],
       "question": "When did Yuri Alekseyevich Gagaris of Russia, the first man to reach space, reach space?"
     },
     {
       "question": "What are the dimensions of A4 paper?",
-      "content": [
+      "options": [
         "8.3\" x 11.7\"",
         "8.5\" x 11\"",
         "30cm x 50cm",
@@ -527,12 +527,12 @@
     },
     {
       "correct": 2,
-      "content": ["energy", "speed", "distance", "intensity"],
+      "options": ["energy", "speed", "distance", "intensity"],
       "question": "Light Year is related to"
     },
     {
       "correct": 2,
-      "content": [
+      "options": [
         "a type of asset that is in cash in the current account of the commercial bank",
         "a type of asset that is in the form of a deposit in the current account of the commercial bank",
         "either of these",
@@ -542,7 +542,7 @@
     },
     {
       "correct": 1,
-      "content": [
+      "options": [
         "largest airport",
         "highest airport",
         "lowest airport",
@@ -552,7 +552,7 @@
     },
     {
       "correct": 2,
-      "content": ["Ethiopia", "Nigeria", "Zambia", "Chad"],
+      "options": ["Ethiopia", "Nigeria", "Zambia", "Chad"],
       "question": "Which of these African countries is situated south of the equator?"
     }
   ]

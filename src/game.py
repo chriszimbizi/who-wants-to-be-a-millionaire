@@ -2,9 +2,11 @@ import json
 import random
 import time
 from typing import List, Dict
-from .utils import clear_screen
+from .utils import clear_screen, confirmation
+
 
 file_name = "who-wants-to-be-a-millionaire/data/questions.json"
+
 money_scale = [
     100,
     200,
@@ -50,7 +52,7 @@ def display_options(question: Dict) -> None:
     """
     print("Question: ", question["question"])
     print("Options:")
-    for i, option in enumerate(question["content"], start=1):
+    for i, option in enumerate(question["options"], start=1):
         print(f"\t{i}. {option}")
     print()
 
@@ -68,12 +70,12 @@ def get_user_answer(question: Dict) -> int:
     while True:
         try:
             user_answer = int(input("Answer: "))
-            if 1 <= user_answer <= len(question["content"]):
+            if 1 <= user_answer <= len(question["options"]):
                 return user_answer
             else:
                 print(
                     "Invalid input. Please enter a number between 1 and",
-                    len(question["content"]),
+                    len(question["options"]),
                 )
         except ValueError:
             print("Invalid input. Please enter a number.\n")
@@ -101,7 +103,7 @@ def cash_out(total_money: int) -> bool:
             print("Invalid input. Please enter 'yes' or 'no'.")
 
 
-def play_game(questions: List[Dict]) -> None:
+def play_game(questions: List[Dict]) -> int:
     """
     Play a single game of Who Wants to Be a Millionaire.
 
@@ -109,7 +111,7 @@ def play_game(questions: List[Dict]) -> None:
     - questions (List[Dict]): List of questions to be used in the game.
 
     Returns:
-    - None
+    - int: The final amount of money earned in the game.
     """
     money_earned = 0
 
@@ -126,21 +128,24 @@ def play_game(questions: List[Dict]) -> None:
 
         if user_answer != correct_answer:
             if money_earned == 0:
-                print("Golden Duck! Better luck next time.")
+                print("Golden Duck! Better luck next time.\n")
             else:
                 print(
-                    f"Game Over! You lost ${money_earned}, maybe you should've cashed out."
+                    f"Game Over! You lost ${money_earned}, maybe you should've cashed out.\n"
                 )
-            break
+            return money_earned
         else:
             print("Congratulations", end=" ")
             money_earned = question_worth
 
         if cash_out(money_earned):
-            print(f"Wise choice! You cashed out with ${money_earned}.\n")
-            break
+            if confirmation("cash out"):
+                print(f"Wise choice! You cashed out with ${money_earned}.\n")
+                return money_earned
 
     if money_earned == money_scale[len(money_scale) - 1]:
         print(
             "Congratulations! You answered all questions correctly and won $1,000,000!"
         )
+
+    return money_earned
