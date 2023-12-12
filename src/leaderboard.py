@@ -1,10 +1,11 @@
 import json
+from typing import Dict
 
 leaderboard_file = "who-wants-to-be-a-millionaire/data/leaderboard.json"
 
 
 # Load leaderboard data from the file
-def load_leaderboard() -> dict:
+def load_leaderboard() -> Dict[str, int]:
     """
     Load the leaderboard data from the JSON file.
 
@@ -19,12 +20,12 @@ def load_leaderboard() -> dict:
         return {}
 
 
-def display_leaderboard(leaderboard: dict) -> None:
+def display_leaderboard(leaderboard: Dict[str, int]) -> None:
     """
     Display the current leaderboard.
 
     Args:
-    - leaderboard (dict): The current leaderboard data.
+    - leaderboard (Dict[str, int]): The current leaderboard data.
 
     Returns:
     - None
@@ -43,12 +44,14 @@ def display_leaderboard(leaderboard: dict) -> None:
         print()
 
 
-def update_leaderboard(leaderboard: dict, player_name: str, score: int) -> None:
+def update_leaderboard(
+    leaderboard: Dict[str, int], player_name: str, score: int
+) -> None:
     """
     Save the player's score in the leaderboard.
 
     Args:
-    - leaderboard (dict): The current leaderboard data.
+    - leaderboard (Dict[str, int]): The current leaderboard data.
     - player_name (str): The name of the player.
     - score (int): The player's score.
 
