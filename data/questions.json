@@ -17,7 +17,7 @@
     },
     {
       "question": "Which state in the United States is largest by area?",
-      "options": ["Alaska", "California", "Texas", "Hawaii"],
+      "options": ["Alaska", "California", "Texas", "Illinois"],
       "correct": 0
     },
     {
@@ -554,6 +554,106 @@
       "correct": 2,
       "options": ["Ethiopia", "Nigeria", "Zambia", "Chad"],
       "question": "Which of these African countries is situated south of the equator?"
+    },
+    {
+      "question": "Which of the following languages has the longest alphabet?",
+      "options": ["Greek", "Russian", "Arabic", "English"],
+      "correct": 1
+    },
+    {
+      "question": "The fear of insects is known as what?",
+      "options": ["Entomophobia", "Arachnophobia", "Ailurophobia", "Zoophobia"],
+      "correct": 0
+    },
+    {
+      "question": "Which horoscope sign is a fish?",
+      "options": ["Aquarius", "Cancer", "Pisces", "Taurus"],
+      "correct": 2
+    },
+    {
+      "question": "Which Game of Thrones character is known as the Young Wolf?",
+      "options": ["Robb Stark", "Ayra Stark", "Sansa Stark", "Jon Snow"],
+      "correct": 0
+    },
+    {
+      "question": "What city hosted the 2002 Olympic Games?",
+      "options": ["Tokyo", "Beijing", "Sydney", "London"],
+      "correct": 2
+    },
+    {
+      "question": "Which of the following was considered one of the Seven Ancient Wonders?",
+      "options": [
+        "Colosseum",
+        "Great Wall of China",
+        "Colossus of Rhodes",
+        "Victoria Falls"
+      ],
+      "correct": 2
+    },
+    {
+      "question": "What Italian city is famous for its system of canals?",
+      "options": ["Rome", "Naples", "Venice", "Pompeii"],
+      "correct": 2
+    },
+    {
+      "question": "What is the strongest muscle in the human body?",
+      "options": ["Jaw", "Heart", "Glutes", "Quadriceps"],
+      "correct": 0
+    },
+    {
+      "question": "Where was tea invented?",
+      "options": ["England", "USA", "India", "China"],
+      "correct": 3
+    },
+    {
+      "question": "Which of the following languages is NOT derived from Latin?",
+      "options": ["French", "English", "Portuguese", "Spanish"],
+      "correct": 3
+    },
+    {
+      "question": "What is the collective name for a group of unicorns?",
+      "options": ["A sparkle", "A herd", "A blessing", "A stable"],
+      "correct": 2
+    },
+    {
+      "question": "What is the most common color of toilet paper in France?",
+      "options": ["Pink", "White", "Blue", "Brown"],
+      "correct": 0
+    },
+    {
+      "question": "What color is an airplane’s famous black box?",
+      "options": ["Red", "White", "Orange", "Black"],
+      "correct": 2
+    },
+    {
+      "question": "In what language is the phrase ‘Hakuna Matata’?",
+      "options": ["Dutch", "Swahili", "Yoruba", "Zulu"],
+      "correct": 1
+    },
+    {
+      "question": "What is the name of a duel with three people involved?",
+      "options": ["A triage", "A truel", "A tryst", "A triad"],
+      "correct": 1
+    },
+    {
+      "question": "Who is credited with inventing the World Wide Web?",
+      "options": [
+        "Steve Jobs",
+        "Bill Gates",
+        "John Macintosh",
+        "Tim Berners-Lee"
+      ],
+      "correct": 3
+    },
+    {
+      "question": "What was New York’s original name?",
+      "options": [
+        "New Hampshire",
+        "New Liverpool",
+        "New Amsterdam",
+        "New Brussels"
+      ],
+      "correct": 2
     }
   ]
 }
