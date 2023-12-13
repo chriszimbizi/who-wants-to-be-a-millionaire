@@ -316,11 +316,6 @@
       "question": "Marco Polo"
     },
     {
-      "correct": 1,
-      "options": ["Guruji", "Man of Peace", "Punjab Kesari", "Mahamana"],
-      "question": "Lal Bahadur Shastri is also known as"
-    },
-    {
       "question": "Which of the following consumer goods is the Gerber Products Co. best known for?",
       "options": ["Potato chips", "Fine wines", "Chewing gum", "Baby Food"],
       "correct": 3
@@ -434,16 +429,6 @@
         "None of the above"
       ],
       "question": "Karl Marx's ideology advocated"
-    },
-    {
-      "correct": 0,
-      "options": [
-        "Maharashtra",
-        "Rajasthan",
-        "Madhya Pradesh",
-        "Himachal Pradesh"
-      ],
-      "question": "Mahabaleshwar is located in"
     },
     {
       "question": "What kind of animal traditionally lives in a sty?",

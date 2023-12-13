@@ -149,7 +149,7 @@ def play_game(questions: List[Dict]) -> int:
                 print(
                     f"Game Over! You lost ${money_earned}, maybe you should've cashed out.\n"
                 )
-            return money_earned
+            return 0
         else:
             print("Congratulations", end=" ")
             money_earned = question_worth
@@ -164,4 +164,4 @@ def play_game(questions: List[Dict]) -> int:
             "Congratulations! You answered all questions correctly and won $1,000,000!"
         )
 
-    return money_earned
+    return 0
