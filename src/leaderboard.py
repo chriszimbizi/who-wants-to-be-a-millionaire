@@ -34,13 +34,13 @@ def display_leaderboard(leaderboard: Dict[str, int]) -> None:
         print("\nLeaderboard is empty.\n")
     else:
         print("\nLeaderboard:\n")
-        print(f"{'Rank':<5} | {'Player':<10} | {'Score':<10}")
+        print(f"{'Rank':<5} | {'Player':<15} | {'Score':<10}")
         print("-" * 28)
 
         for rank, (player, score) in enumerate(
             sorted(leaderboard.items(), key=lambda x: x[1], reverse=True), start=1
         ):
-            print(f"{rank:<5} | {player:<10} | {score:<10}")
+            print(f"{rank:<5} | {player:<15} | {score:<10}")
         print()
 
 

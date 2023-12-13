@@ -26,6 +26,22 @@ money_scale = [
 ]
 
 
+def get_player_name() -> str:
+    """
+    Get the player's name from the user.
+
+    Returns:
+    - str: The validated and lowercased player's name.
+    """
+    while True:
+        player_name = input("\nEnter your name: ").strip()
+
+        if player_name.isalpha() and len(player_name) < 15:
+            return player_name.lower()
+        else:
+            print("Invalid name. Please use up to only 15 letters.")
+
+
 def get_questions() -> List[Dict]:
     """
     Load questions from the JSON file and shuffle them.

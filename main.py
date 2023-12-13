@@ -5,7 +5,7 @@ from src.leaderboard import (
     display_leaderboard,
     update_leaderboard,
 )
-from src.game import get_questions, play_game
+from src.game import get_player_name, get_questions, play_game
 
 
 def main() -> None:
@@ -23,7 +23,7 @@ def main() -> None:
 
         if menu_choice == 1:
             # Start the game
-            player_name = input("\nEnter your name: ").lower()
+            player_name = get_player_name()
             questions = get_questions()
             score = play_game(questions)
             update_leaderboard(leaderboard, player_name, score)
