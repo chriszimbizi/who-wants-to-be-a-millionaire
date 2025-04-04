@@ -15,7 +15,7 @@ Welcome to Who Wants to Be a Millionaire, a console-based Python game inspired b
 1. Clone the repository to your local machine:
 
    ```bash
-   git clone https://github.com/your-username/who-wants-to-be-a-millionaire.git
+   git clone https://github.com/chriszimbizi/who-wants-to-be-a-millionaire.git
    ```
 
 2. Navigate to the project directory in your terminal:
