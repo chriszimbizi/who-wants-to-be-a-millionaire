@@ -5,7 +5,7 @@ from typing import List, Dict
 from .utils import clear_screen, confirmation
 
 
-file_name = "who-wants-to-be-a-millionaire/data/questions.json"
+file_name = "data/questions.json"
 
 money_scale = [
     100,
@@ -111,9 +111,9 @@ def cash_out(total_money: int) -> bool:
         cash_out_input = input(
             f"Do you want to cash out with ${total_money}? (yes/no): "
         ).lower()
-        if cash_out_input == "yes":
+        if cash_out_input.startswith("y"):
             return True
-        elif cash_out_input == "no":
+        elif cash_out_input.startswith("n"):
             return False
         else:
             print("Invalid input. Please enter 'yes' or 'no'.")

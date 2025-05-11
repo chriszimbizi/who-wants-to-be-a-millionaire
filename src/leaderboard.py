@@ -1,7 +1,7 @@
 import json
 from typing import Dict
 
-leaderboard_file = "who-wants-to-be-a-millionaire/data/leaderboard.json"
+leaderboard_file = "data/leaderboard.json"
 
 
 # Load leaderboard data from the file
@@ -35,7 +35,7 @@ def display_leaderboard(leaderboard: Dict[str, int]) -> None:
     else:
         print("\nLeaderboard:\n")
         print(f"{'Rank':<5} | {'Player':<15} | {'Score':<10}")
-        print("-" * 28)
+        print("-" * 31)
 
         for rank, (player, score) in enumerate(
             sorted(leaderboard.items(), key=lambda x: x[1], reverse=True), start=1
